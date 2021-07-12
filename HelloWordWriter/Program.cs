@@ -8,6 +8,9 @@ namespace HelloWordWriter
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("...starting program...");
+            
             MyWriter writer = new MyWriter();
 
             if (writer.IsHelloWorldString(Assembly.GetExecutingAssembly().FullName))
